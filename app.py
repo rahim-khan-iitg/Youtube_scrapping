@@ -1,7 +1,7 @@
 from functions import *
 from flask_cors import CORS,cross_origin
 from flask import Flask,render_template,request
-mport os,sys
+import os,sys
 path=os.path.abspath("code")
 sys.path.append(path)
 import functions
