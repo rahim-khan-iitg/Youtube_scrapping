@@ -1,4 +1,3 @@
-from functions import *
 from flask_cors import CORS,cross_origin
 from flask import Flask,render_template,request
 import os,sys
