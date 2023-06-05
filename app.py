@@ -1,7 +1,7 @@
 from flask_cors import CORS,cross_origin
 from flask import Flask,render_template,request
 import os,sys
-path=os.path.abspath("code")
+path=os.path.abspath("models")
 sys.path.append(path)
 import functions
 app=Flask(__name__)
