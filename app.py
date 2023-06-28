@@ -2,7 +2,7 @@ from flask_cors import CORS,cross_origin
 from flask import Flask,render_template,request
 app=Flask(__name__)
 from googleapiclient.discovery import build
-api_key="AIzaSyDxQkZ1ik7V9uMZ4QaH3GQFcnIlySU2BBI"
+api_key=""
 youtube=build('youtube','v3',developerKey=api_key)
 def get_video_id(link:str)->str:
     i=link.find("watch?v=")
